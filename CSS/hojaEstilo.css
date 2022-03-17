@@ -1,0 +1,41 @@
+
+html{
+    
+    background-color:antiquewhite;
+
+}
+img{
+    border: 10px solid slategray;
+    text-align: center;
+}
+p{
+    line-height:25px;
+}
+.col-1{
+    background-color: rgb(97, 90, 90);
+    width: 35%;
+}
+.col-2{
+    background-color: white;
+    width: 65%;
+}
+
+*{
+    box-sizing: border-box;
+}
+.row{
+    padding: 5% 23% 5% 23% ;
+}
+  
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+@media only screen and (max-width: 800px) {
+  .row{
+      padding: 0%;
+  }
+  [class*="col-"] {
+    width: 100%;
+  }
+}
